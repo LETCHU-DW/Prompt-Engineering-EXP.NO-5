@@ -13,4 +13,97 @@ Prepare Multiple Test Scenarios: Select various scenarios such as: Generating a 
 
 OUTPUT:
 
+## Definition of Prompt Types
+Naïve Prompt
+
+A simple, vague, or unstructured prompt with little context or instruction.
+
+Example:
+“Tell me about the internet.”
+
+Issues:
+No clear direction
+No specific format
+No depth requirement
+
+## Basic (Refined) Prompt
+A clear, structured, and detailed prompt with specific instructions.
+
+Example:
+“Explain the internet in simple terms, including its working, uses, advantages, and disadvantages. Present the answer in bullet points.”
+
+Advantages:
+Clear goal
+Better structure
+More useful output
+
+## Test Scenarios
+The following 4 scenarios were tested:
+Creative Writing
+Factual Question
+Summarization
+Advice / Recommendation 
+
+## Experiment Results
+| Scenario | Naïve Prompt             | Better Prompt                                                              | Result                        |
+| -------- | ------------------------ | -------------------------------------------------------------------------- | ----------------------------- |
+| Story    | Write a story            | Write a 120-word adventure story set in a forest with a surprising ending  | Better structure & creativity |
+| Fact     | What is blockchain?      | Explain blockchain with its features, working, and real-world applications | More clear & detailed         |
+| Summary  | Summarize this paragraph | Summarize the paragraph into 4 key bullet points                           | Organized & concise           |
+| Advice   | How to stay healthy?     | Give 5 tips to stay healthy with examples of daily habits                  | Practical & useful            |
+
+## Detailed Analysis
+1. Quality
+Naïve prompts → Generic and sometimes unclear responses
+Basic prompts → Structured, readable, and useful responses
+
+Conclusion:
+Basic prompts produce higher-quality answers.
+
+2. Accuracy
+Both prompt types generally provide correct information
+Naïve prompts may miss important details
+
+Conclusion:
+Accuracy is similar, but refined prompts reduce missing information.
+
+3. Depth
+Naïve prompts → Surface-level answers
+Basic prompts → Detailed explanations with examples
+
+Conclusion:
+Depth significantly improves with structured prompts.
+
+## Key Observations
+Clear prompts give better results
+Adding format improves readability
+Instructions increase completeness
+Naïve prompts are useful only for simple queries
+
+## When Naïve Prompts Work Well
+Very simple questions (e.g., “What is water?”)
+Quick queries
+When detailed answers are not required
+
+## Final Conclusion
+Prompt clarity directly affects output quality.
+Basic prompts consistently produce:
+Better structure
+More depth
+More useful information
+Therefore, well-structured prompts are essential.
+
+## Insights (Important for Marks)
+To get the best results:
+Be specific about the task
+Mention output format
+Add constraints (word limit, examples)
+Provide context
+
+## Final Summary
+Naïve prompts → Simple but limited results
+Basic prompts → Detailed, accurate, structured result
+
 RESULT: 
+This experiment shows that naïve prompts produce basic and less detailed responses, while refined prompts generate more structured, clear, and informative outputs.
+Hence, well-designed prompts significantly improve the quality, depth, and usefulness of AI-generated responses.
